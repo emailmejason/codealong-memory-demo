@@ -23,3 +23,12 @@ body {
 #board .tile.active img {
   visibility:visible;
 }
+
+
+
+#board .tile.matched {
+  opacity:0.4;
+}
+#board .tile.matched img {
+  visibility:visible;
+}
