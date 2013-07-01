@@ -1,3 +1,24 @@
 body {
   background-color:gold;
 }
+#board {
+  width:400px;
+  overflow:hidden;
+  margin:50px auto;
+}
+#board .tile {
+  background:#b80000;
+}
+#board .tile,
+#board .tile img {
+  display:block;
+  width:100px;
+  height:100px;
+  float:left;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+#board .tile img {
+  visibility:hidden;
+}
